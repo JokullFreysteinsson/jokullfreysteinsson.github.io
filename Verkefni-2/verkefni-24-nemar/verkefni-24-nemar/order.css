@@ -42,7 +42,7 @@ footer p {
 	flex-basis: 1em;*/
 
 	flex: 1 1 1em;
-	margin: 0 0 1em 0;
+	
 }
 .col{
 	display: flex;
