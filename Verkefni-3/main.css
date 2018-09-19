@@ -31,3 +31,17 @@ header h1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+.small{
+    font-size: 0.6em;
+    letter-spacing: 0.04rem;
+    line-height: 1.6;
+}
+.poster{
+    font-family: Impact, sans-serif;
+    font-size: 6em;
+    background-color: khaki;
+    text-align: center;
+}
+.span{
+    color: aqua;
+}
