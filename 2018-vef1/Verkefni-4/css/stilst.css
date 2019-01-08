@@ -1,0 +1,137 @@
+.footer {
+    color: #fff;
+    padding: 2em   
+}
+.innermenu {
+    display: flex;
+    background: #0064ce;
+    justify-content: space-around;   
+}
+.header{
+    
+    background-color: lightskyblue;
+    grid-area: header;
+    
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-template-areas: 
+    "H H J"
+    "H H R"
+    
+}
+.fuckyou{
+    
+    
+    
+    grid-area: topnav;
+    padding: 2em;
+   
+}
+.eatass{
+    
+    
+    background-color: lightskyblue;
+
+    padding: 2em;
+    
+}
+.diefromcanser{
+    background-color: blue;
+}
+
+ body{
+    
+    margin: auto;
+    font-family: "Open Sans",sans-serif;
+    line-height: 1.5;
+    display: grid;
+    background-color: lightblue;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "header"
+        "topnav"
+        "content"
+        "footer"
+}
+h1{
+    text-align: center;
+    
+    
+}
+.navigation ul {
+    font: bold 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+  }
+  .navigation li {
+    display: inline-block;
+  }
+  .navigation a {
+    background: #395870;
+    background: linear-gradient(lightblue, red, yellow);
+    border-right: 1px solid rgba(0, 0, 0, .3);
+    color: #fff;
+    padding: 12px 20px;
+    text-decoration: none;
+  }
+  .navigation a:hover {
+    background: #314b60;
+    box-shadow: inset 0 0 10px 1px rgba(0, 0, 0, .3);
+  }
+  .navigation li:first-child a {
+    border-radius: 4px 0 0 4px;
+  }
+  .navigation li:last-child a {
+    border-right: 0;
+    border-radius: 0 4px 4px 0;
+  }
+  .navigation{
+      text-align: center;
+      color: white;
+  }
+  dt {
+      color: red;
+  }
+ 
+  .container{
+      max-width: 60em;
+  }
+  nav{
+      flex-wrap: inherit;
+  }
+  .main{
+      max-width: 60em;
+  }
+ .div{
+      background-image: -webkit-linear-gradient(yellow, pink); 
+      
+  }
+  .div-2{
+    background-image: -webkit-linear-gradient(pink, lightblue); 
+    
+    }
+.div-3{
+    background-image: -webkit-linear-gradient(lightblue, yellow);
+}
+
+.col-3{
+      display: grid;
+      grid-template-columns: 1.55fr 1.2fr 1fr;
+  }
+  .hello{
+      background-color: rgba(255, 255, 255, 0.5);
+      padding: 1em;
+  }
+  .gridH{
+      grid-area: h;
+  }
+  .gridR{
+      grid-area: r;
+  }
+  .gridJ{
+      grid-area: j;
+      padding-left: 20em;
+
+  }
+  
