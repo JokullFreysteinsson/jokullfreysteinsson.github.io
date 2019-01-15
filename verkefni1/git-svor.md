@@ -7,13 +7,14 @@
     mkdir - bý til möppu
 2. Hvað gera eftirfarandi Git skipanir
     git clone - afrita geymslu
-    git status -
-    git diff
+    git status - breyttum skrám í vinnuskránum þínum
+    git diff - changes to tracked files
 3. Hvað gera etirfarandi Git skipanir saman? Hvaða gagn er að þeirri aðgerð?
-    git log
-    git checkout
-    git branch
+    git log - Sýna öll skuldbindingar, byrja með nýjustu
+    git checkout - skipti HEAD
+    git branch - Búðu til nýja útibú
 4. Hvað er útgáfustýring (Version Control)?
+    Útgáfustýring er kerfi sem skráir breytingar í skrá
 
 5. Hverjir eru helstu kostir við að nota GIT?
 
