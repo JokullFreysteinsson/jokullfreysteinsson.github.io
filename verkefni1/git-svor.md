@@ -17,7 +17,10 @@
     Útgáfustýring er kerfi sem skráir breytingar í skrá
 
 5. Hverjir eru helstu kostir við að nota GIT?
+    það er þægilegt
+    gott að nota það 
 
 6. Hversu oft telur þú að eigi að gera færslur (commit) í verkefni?
 
 7. Hvað er átt við með “Working Directory”?” og “Staging Area” í GIT?
+    working directory is a directory of a heiraechical file system. staging area holds changes that you hve made to your source files.
