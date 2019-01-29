@@ -1,4 +1,9 @@
+
 <nav>
-    <a href="/">Forsíða</a>
-    <a href="/ummig.md">Um mig</a>
-</nav>
+    <a href="/" {% if page.url == "/" %}style="color: red;"{% endif %}>
+      Forsíða
+    </a>
+    <a href="/ummig.md" {% if page.url == "/ummig.md" %}style="color: red;"{% endif %}>
+      Um mig
+    </a>
+  </nav>
