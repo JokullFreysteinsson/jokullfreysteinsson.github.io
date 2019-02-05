@@ -1,3 +1,6 @@
+title: Jekyll - step by step
+baseurl: "/"
+url: "jokullfreysteinsson.github.io"
 collections:
   authors:
     output: true
