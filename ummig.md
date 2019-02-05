@@ -3,7 +3,6 @@ layout: default
 title: eitthvað um mig. jekyll síða
 ---
 
- 
+ <h1>Halló ég heiti Jökull ég er að reyna að læra verforritnun. Ég hef enga hugmynd um hvað ég er að gera.
+":   > )"</h1>
 
-Halló ég heiti Jökull ég er að reyna að læra verforritnun. Ég hef enga hugmynd um hvað ég er að gera.
-":   > )"
