@@ -3,6 +3,6 @@ layout: default
 title: Verkefni 2. jekyll síða
 ---
 
-# Halló heimur
+# Leage of Legends 
 
 þetta er Jekyll vefur
