@@ -1,15 +1,30 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<html lang="is">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8"> 
     <title>{{ page.tiltle }}</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    
-</head>
-<body>
-    {% include navigation.html %}    
-    {{ content }}
-</body>
+    <!--link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"-->
+    <link rel="stylesheet" href="css/styles.css ">
+  </head>
+  <body>
+    <header class="header">
+      <div>
+        <h1 class="gridH">
+            {{ page.tiltle }}
+        </h1>
+      </div>
+      <div>
+        <nav class="topmenu navigation gridR">
+            {% include navigation.html %}
+        </nav>
+      </div>
+    </header>
+    <div class="div "> 
+      <section class="fuckyou ">
+          {{ content }}
+      </section>
+    </div>
+    {% include footer.html %}
+  </body>
 </html>
