@@ -1,7 +1,7 @@
 ---
 layout: default
-title: eitthvað um mig. jekyll síða
+title: eitthvað um mig 
 ---
 
- <h1>Halló ég heiti Jökull ég er að reyna að læra verforritnun. 
+ # Halló ég heiti Jökull ég er að reyna að læra verforritnun. 
 
