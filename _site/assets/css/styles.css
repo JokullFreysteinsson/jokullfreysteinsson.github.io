@@ -11,7 +11,7 @@
   justify-content: space-around; }
 
 .header {
-  background-color: lightskyblue;
+  background-image: -webkit-linear-gradient(black, purple); 
   grid-area: header;
   display: grid;
   grid-template-columns: 1fr, 1fr, 1fr;
@@ -22,7 +22,7 @@
   padding: 2em; }
 
 .eatass {
-  background-color: lightskyblue;
+  background-color: purple;
   padding: 2em; }
 
 .diefromcanser {
@@ -51,7 +51,7 @@ h1 {
 
 .navigation a {
   background: #395870;
-  background: linear-gradient(blue, black, purple );
+  background: linear-gradient( purple );
   border-right: 1px solid rgba(0, 0, 0, 0.3);
   color: #fff;
   padding: 12px 20px;
@@ -85,13 +85,14 @@ nav {
   max-width: 60em; }
 
 .div {
-  background-image: -webkit-linear-gradient(yellow, pink); }
+  background-image: -webkit-linear-gradient(rgb(107, 13, 13), purple); }
 
 .div-2 {
-  background-image: -webkit-linear-gradient(pink, lightblue); }
+  background-image: -webkit-linear-gradient(purple, rgb(107, 13, 13), purple); }
 
 .div-3 {
-  background-image: -webkit-linear-gradient(lightblue, yellow); }
+  background-image: -webkit-linear-gradient(rgb(107, 13, 13), purple); }
+
 
 .col-3 {
   display: grid;
