@@ -22,7 +22,7 @@
   padding: 2em; }
 
 .eatass {
-  background-color: purple;
+  background-image: -webkit-linear-gradient(black, purple); 
   padding: 2em; }
 
 .diefromcanser {
@@ -33,10 +33,11 @@ body {
   font-family: "Open Sans",sans-serif;
   line-height: 1.5;
   display: grid;
-  background-color: lightblue;
+  background-color: purple;
   grid-template-columns: 1fr;
-  grid-template-areas: "header" "topnav" "content" "footer"; }
-
+  grid-template-areas: "header" "topnav" "content" "footer"; 
+   
+}
 h1 {
   text-align: center; }
 
