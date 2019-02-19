@@ -3,5 +3,5 @@ layout: default
 title: Verkefni 2. jekyll síða
 ---
 
-# Leage of Legends 
-is a funny game that you wana play
+# League of Legends 
+League of Legends er stærsti og frægasti leikur í heimi. Hann er MOBA
