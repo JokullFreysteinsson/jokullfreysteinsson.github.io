@@ -117,12 +117,12 @@ nav {
   background-color: white;
   padding: 20px;
   border-radius: 50px;
-  background-image: -webkit-linear-gradient(pink, lightblue);
+  background-image: -webkit-linear-gradient(black, purple);
   position: fixed;
   bottom: 50px;
   text-decoration: none;
   right: 50px; }
 
 #upp:hover {
-  background-image: -webkit-linear-gradient(yellow, pink);
+  background-image: -webkit-linear-gradient(black, purple);
   color: white; }
