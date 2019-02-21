@@ -127,3 +127,66 @@ nav {
 #upp:hover {
   background-image: -webkit-linear-gradient(black, purple);
   color: white; }
+
+  .myndabox {
+    width: 162px; /* ath! klasinn er með fasta breidd*/
+    }
+    /*  ========================================
+    Viðmið - breakpoints 30em = 480px + 
+    ========================================*/
+    
+    @media screen and (min-width: 30em) {
+    
+      .myndabox {
+        /* ath! */
+      }
+    }
+    
+    /*  ========================================
+    Viðmið - breakpoints 37.5em = 600px + 
+    ========================================*/
+    
+    @media screen and (min-width: 37.5em) {
+    
+      .content {
+      /* skipti yfir í 2 dálka */
+      }
+    }
+    /* ========================================
+    Viðmið - breakpoints 48em = 760px +
+    ======================================== */
+    
+    @media screen and (min-width: 48em) {  
+      body {
+          /*færi topnav efst á síðu*/
+      }
+    
+      /* ========================================
+      Viðmið - breakpoints 60em = 960px +
+      ======================================== */
+    
+    @media screen and (min-width: 60em) { 
+      body { 
+        max-width: 58em; 
+        margin: 0 auto;
+      }
+      .content {
+        display: grid; /* grid erfist til barna (child element only) */
+        grid-gap: 0;
+        grid-template-areas:
+          "midja vinstri haegri"
+        }
+      .myndabox {
+        /* skipti yfir í eina röð */
+      }
+    
+    }
+    /* ========================================
+    Viðmið - breakpoints 80em = 1280px +
+    ======================================== */
+    
+    @media screen and (min-width: 80em) { 
+      body { 
+        max-width: 77em;
+        margin: 0 auto;
+      }
