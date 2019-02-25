@@ -11,7 +11,7 @@
   justify-content: space-around; }
 
 .header {
-  background-image: -webkit-linear-gradient(black, purple); 
+  background-color: lightskyblue;
   grid-area: header;
   display: grid;
   grid-template-columns: 1fr, 1fr, 1fr;
@@ -22,7 +22,7 @@
   padding: 2em; }
 
 .eatass {
-  background-image: -webkit-linear-gradient(black, purple); 
+  background-color: lightskyblue;
   padding: 2em; }
 
 .diefromcanser {
@@ -33,11 +33,10 @@ body {
   font-family: "Open Sans",sans-serif;
   line-height: 1.5;
   display: grid;
-  background-color: purple;
+  background-color: lightblue;
   grid-template-columns: 1fr;
-  grid-template-areas: "header" "topnav" "content" "footer"; 
-   
-}
+  grid-template-areas: "header" "topnav" "content" "footer"; }
+
 h1 {
   text-align: center; }
 
@@ -52,7 +51,7 @@ h1 {
 
 .navigation a {
   background: #395870;
-  background: linear-gradient( purple );
+  background: linear-gradient(lightblue, yellow);
   border-right: 1px solid rgba(0, 0, 0, 0.3);
   color: #fff;
   padding: 12px 20px;
@@ -86,14 +85,13 @@ nav {
   max-width: 60em; }
 
 .div {
-  background-image: -webkit-linear-gradient(rgb(107, 13, 13), purple); }
+  background-image: -webkit-linear-gradient(green, pink); }
 
 .div-2 {
-  background-image: -webkit-linear-gradient(purple, rgb(107, 13, 13), purple); }
+  background-image: green; }
 
 .div-3 {
-  background-image: -webkit-linear-gradient(rgb(107, 13, 13), purple); }
-
+  background-image: -webkit-linear-gradient(lightblue, purple); }
 
 .col-3 {
   display: grid;
@@ -118,75 +116,12 @@ nav {
   background-color: white;
   padding: 20px;
   border-radius: 50px;
-  background-image: -webkit-linear-gradient(black, purple);
+  background-image: -webkit-linear-gradient(pink, lightblue);
   position: fixed;
   bottom: 50px;
   text-decoration: none;
   right: 50px; }
 
 #upp:hover {
-  background-image: -webkit-linear-gradient(black, purple);
+  background-image: -webkit-linear-gradient(yellow, pink);
   color: white; }
-
-  .myndabox {
-    width: 162px; /* ath! klasinn er með fasta breidd*/
-    }
-    /*  ========================================
-    Viðmið - breakpoints 30em = 480px + 
-    ========================================*/
-    
-    @media screen and (min-width: 30em) {
-    
-      .myndabox {
-        /* ath! */
-      }
-    }
-    
-    /*  ========================================
-    Viðmið - breakpoints 37.5em = 600px + 
-    ========================================*/
-    
-    @media screen and (min-width: 37.5em) {
-    
-      .content {
-      /* skipti yfir í 2 dálka */
-      }
-    }
-    /* ========================================
-    Viðmið - breakpoints 48em = 760px +
-    ======================================== */
-    
-    @media screen and (min-width: 48em) {  
-      body {
-          /*færi topnav efst á síðu*/
-      }
-    
-      /* ========================================
-      Viðmið - breakpoints 60em = 960px +
-      ======================================== */
-    
-    @media screen and (min-width: 60em) { 
-      body { 
-        max-width: 58em; 
-        margin: 0 auto;
-      }
-      .content {
-        display: grid; /* grid erfist til barna (child element only) */
-        grid-gap: 0;
-        grid-template-areas:
-          "midja vinstri haegri"
-        }
-      .myndabox {
-        /* skipti yfir í eina röð */
-      }
-    
-    }
-    /* ========================================
-    Viðmið - breakpoints 80em = 1280px +
-    ======================================== */
-    
-    @media screen and (min-width: 80em) { 
-      body { 
-        max-width: 77em;
-        margin: 0 auto;
-      }

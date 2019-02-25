@@ -69,7 +69,7 @@ h1{
   }
   .navigation a {
     background: #395870;
-    background: linear-gradient(lightblue, red, yellow);
+    background: linear-gradient(lightblue, yellow);
     border-right: 1px solid rgba(0, 0, 0, .3);
     color: #fff;
     padding: 12px 20px;
@@ -90,8 +90,7 @@ h1{
       text-align: center;
       color: white;
   }
-  dt {
-      color: red;
+
   }
  
   .container{
@@ -104,15 +103,15 @@ h1{
       max-width: 60em;
   }
  .div{
-      background-image: -webkit-linear-gradient(yellow, pink); 
+      background-image: -webkit-linear-gradient(green, pink); 
       
   }
   .div-2{
-    background-image: -webkit-linear-gradient(pink, lightblue); 
+    background-image: (green); 
     
     }
 .div-3{
-    background-image: -webkit-linear-gradient(lightblue, yellow);
+    background-image: -webkit-linear-gradient(lightblue, purple);
 }
 
 .col-3{
