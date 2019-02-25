@@ -125,3 +125,23 @@ nav {
 #upp:hover {
   background-image: -webkit-linear-gradient(yellow, pink);
   color: white; }
+  @media screen and (min-width: 80em) { 
+    body { 
+      max-width: 77em;
+      margin: 0 auto;
+    }
+      .myndabox {
+  
+    }
+  }
+  @media screen and (min-width: 60em) { 
+    body { 
+      max-width: 58em; 
+      margin: 0 auto;
+    }
+    .content {
+      display: grid; /* grid erfist til barna (child element only) */
+      grid-gap: 0;
+      grid-template-areas:
+        "midja vinstri haegri"
+      }
