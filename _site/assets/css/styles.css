@@ -14,7 +14,7 @@ body {
   display: grid;
   background-color: lightblue;
   grid-template-columns: 1fr, 1fr, 1fr;
-  grid-template-areas: "header" "topnav" "content" "footer"; }
+  grid-template-areas: "header" "content" "footer"; }
 
 .topnav {
   grid-area: topnav; }
@@ -53,13 +53,16 @@ footer {
   background: lightgreen; }
 
 .midja {
-  background: skyblue; }
+  background: lightblue;
+  padding: 1em; }
 
 .vinstri {
-  background: gold; }
+  background: gold;
+  padding: 1em; }
 
 .haegri {
-  background: pink; }
+  background: pink;
+  padding: 1em; }
 
 /* ====== leturst├¡lar ====== */
 header h1 {
@@ -80,6 +83,9 @@ header h1 {
 footer {
   padding: 2em; }
 
+.content {
+  padding: 2m; }
+
 /* ========================================
 Efnisyfirlit (mobile)
 ======================================== */
@@ -88,13 +94,6 @@ Efnisyfirlit (mobile)
 
 .topnav input {
   display: none; }
-
-.topmenu {
-  display: block;
-  /*position: fixed;*/
-  padding: 0;
-  margin: 0;
-  list-style: none; }
 
 .topmenu li {
   border: 0;
@@ -151,7 +150,11 @@ Vi├░mi├░ - breakpoints 37.5em = 600px +
 ========================================*/
 @media screen and (min-width: 37.5em) {
   .content {
-    /* skipti yfir ├¡ 2 d├ílka */ } }
+    display: grid;
+    /* grid erfist til barna (child element only) */
+    grid-gap: 0;
+    grid-template-areas: "vinstri midja haegri";
+    grid-template-columns: 1fr 3fr 1fr; } }
 /* ========================================
 Vi├░mi├░ - breakpoints 48em = 760px +
 ======================================== */
@@ -165,7 +168,7 @@ Vi├░mi├░ - breakpoints 48em = 760px +
 
   footer {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr; } }
+    grid-template-columns: 1fr 1fr; } }
 /* ========================================
 Vi├░mi├░ - breakpoints 60em = 960px +
 ======================================== */
