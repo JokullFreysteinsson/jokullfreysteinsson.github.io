@@ -10,7 +10,7 @@
   <body>
     <header class="header">
       <div>
-        <h1 class="gridH">
+        <h1 class="h1">
             {{ page.tiltle }}
         </h1>
       </div>
@@ -20,14 +20,21 @@
         </nav>
       </div>
     </header>
-    <div class="div "> 
-      <section class="fuckyou ">  
-          {{ content }}
+    <section class="content"> 
+        <article class="midja">
+            {{ content }}
+        </article>
+        <aside class="vinstri">
+          <h4>Hér kemur include html síða</h4>
+         </aside>
+        <aside class="haegri">
+            <h4>Hér kemur include html síða</h4>
+        </aside>
       </section>
-    </div>
-    <div>
-      <img src="myndir/rose-960.jpg">
-    </div>
+    <div class="footer">
     {% include footer.html %}
+    </div>
+
+
   </body>
 </html>
