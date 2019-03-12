@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?7z3nfs');
+  src:  url('fonts/icomoon.eot?7z3nfs#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?7z3nfs') format('truetype'),
+    url('fonts/icomoon.woff?7z3nfs') format('woff'),
+    url('fonts/icomoon.svg?7z3nfs#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-home:before {
+  content: "\e900";
+}
+.icon-film:before {
+  content: "\e913";
+}
+.icon-dice:before {
+  content: "\e915";
+}
+.icon-pacman:before {
+  content: "\e916";
+}
+.icon-connection:before {
+  content: "\e91b";
+}
+.icon-happy:before {
+  content: "\e9df";
+}
+.icon-wink:before {
+  content: "\e9e7";
+}
+.icon-tux:before {
+  content: "\eabd";
+}
+.icon-appleinc:before {
+  content: "\eabe";
+}
+.icon-finder:before {
+  content: "\eabf";
+}
+.icon-android:before {
+  content: "\eac0";
+}
+.icon-windows:before {
+  content: "\eac1";
+}
+.icon-html-five2:before {
+  content: "\eae5";
+}
