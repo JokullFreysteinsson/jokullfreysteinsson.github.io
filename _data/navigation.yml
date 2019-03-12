@@ -1,8 +1,8 @@
-- name: Forsíða
+- name: <span class="icon-home"> </span> Forsíða
   link: /
-- name: Ummig
+- name: <span class="icon-film"> </span> Ummig
   link: /ummig.html
-- name: Blog
+- name: <span class="icon-pacman"> </span> Blog
   link: /blog.html
-- name: Starfsmen
+- name: <span class="icon-happy"> </span> Starfsmen
   link: /staff.html
