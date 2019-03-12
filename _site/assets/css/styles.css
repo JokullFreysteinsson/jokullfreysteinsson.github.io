@@ -47,7 +47,8 @@ body {
   background: #1c2d1c; }
 
 header {
-  background: green; }
+  background: green;
+  flex-flow: row; }
 
 footer {
   background: lightgreen; }
@@ -94,31 +95,6 @@ Efnisyfirlit (mobile)
 
 .topnav input {
   display: none; }
-
-.topmenu li {
-  border: 0;
-  border-bottom: 1px solid lightblue;
-  padding: 0;
-  margin: 0; }
-
-.topmenu li {
-  border: 0;
-  padding: 0;
-  border-bottom: 1px solid lightblue; }
-
-.topmenu a {
-  display: block;
-  /* ath! */
-  color: white;
-  text-decoration: none;
-  text-align: center;
-  padding: .4em 1em; }
-
-.topmenu a:hover,
-.topmenu a:active,
-.virkur {
-  color: black !important;
-  background-color: lightblue; }
 
 h1 {
   text-align: center; }
