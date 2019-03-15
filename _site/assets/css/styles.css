@@ -96,17 +96,6 @@ Efnisyfirlit (mobile)
 .topnav input {
   display: none; }
 
-.topmenu li {
-  border: 0;
-  border-bottom: 1px solid lightblue;
-  padding: 0;
-  margin: 0; }
-
-.topmenu li {
-  border: 0;
-  padding: 0;
-  border-bottom: 1px solid lightblue; }
-
 .topmenu a {
   display: block;
   /* ath! */
@@ -150,6 +139,9 @@ figure {
 Vi├░mi├░ - breakpoints 37.5em = 600px + 
 ========================================*/
 @media screen and (min-width: 37.5em) {
+  .topmenu {
+    flex-flow: column; }
+
   .content {
     display: grid;
     /* grid erfist til barna (child element only) */
