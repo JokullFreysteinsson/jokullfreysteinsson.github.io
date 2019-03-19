@@ -161,7 +161,10 @@ Viðmið - breakpoints 37.5em = 600px +
 
 @media screen and (min-width: 37.5em) {
   .topmenu{
-    flex-flow: column;
+    display: flex; 
+    flex-flow: row;
+    justify-content: space-around;
+
   }
   .content {
     display: grid; /* grid erfist til barna (child element only) */
