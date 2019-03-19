@@ -96,6 +96,9 @@ Efnisyfirlit (mobile)
 .topnav input {
   display: none; }
 
+button {
+  background-color: red; }
+
 .topmenu a {
   display: block;
   /* ath! */
