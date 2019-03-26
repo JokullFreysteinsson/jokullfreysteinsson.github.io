@@ -12,7 +12,7 @@ body {
   font-family: "Open Sans",sans-serif;
   line-height: 1.5;
   display: grid;
-  background-color: lightblue;
+  background: linear-gradient(lightblue, white, lightblue);
   grid-template-columns: 1fr, 3fr, 1fr;
   grid-template-areas: "header" "content" "footer"; }
 
@@ -39,7 +39,7 @@ footer {
   grid-area: haegri; }
 
 /* ====== GRID Template Areas ===== */
-/* ====== Base litir + padding ====== */
+/* ====== Bakruns litir====== */
 body {
   line-height: 1.5em; }
 
@@ -58,7 +58,7 @@ footer {
   padding: 1em; }
 
 .vinstri {
-  background: gold;
+  background: pink;
   padding: 1em; }
 
 .haegri {
@@ -166,7 +166,8 @@ Vi├░mi├░ - breakpoints 48em = 760px +
 
   footer {
     display: grid;
-    grid-template-columns: 1fr 1fr; } }
+    grid-template-columns: 1fr 1fr;
+    padding: 2em; } }
 /* ========================================
 Vi├░mi├░ - breakpoints 60em = 960px +
 ======================================== */

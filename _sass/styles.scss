@@ -10,7 +10,7 @@ body{
   font-family: "Open Sans",sans-serif;
   line-height: 1.5;
   display: grid;
-  background-color: lightblue;
+  background: linear-gradient( lightblue, white, lightblue, );
   grid-template-columns: 1fr, 3fr, 1fr;
   grid-template-areas:
       "header"
@@ -44,7 +44,7 @@ grid-area: haegri;
 
 
 
-/* ====== Base litir + padding ====== */
+/* ====== Bakruns litir====== */
 
 body {
 line-height: 1.5em;
@@ -65,7 +65,7 @@ background: lightblue;
 padding: 1em; 
 }
 .vinstri {
-background: gold;
+background: pink;
 padding: 1em;  
 }
  
@@ -107,15 +107,9 @@ background: #1c2d1c;
 .topnav input {
 display: none;
 }
-
-
-
 button{
   background-color: red; 
 }
-
-
-
 .topmenu a {
 display: block;     /* ath! */
 color: white;
@@ -131,8 +125,6 @@ background-color: lightblue;
 }
 h1{
   text-align: center;
-  
-
 }
 /* =======================================
 *  myndvinnsla  *
@@ -192,6 +184,7 @@ Viðmið - breakpoints 48em = 760px +
   footer{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding: 2em;
   }  
 }
   /* ========================================
