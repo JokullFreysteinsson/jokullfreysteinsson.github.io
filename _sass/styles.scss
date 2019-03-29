@@ -155,6 +155,7 @@ Viðmið - breakpoints 37.5em = 600px +
 
 @media screen and (min-width: 37.5em) {
   .topmenu{
+    
     display: flex; 
     flex-flow: row;
     justify-content: space-around;
