@@ -74,13 +74,39 @@ MJÖG KÚL
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <style> 
+        .animation {
+          width: 100px;
+          height: 100px;
+          
+          position: relative;
+        
+          animation-name: example;
+          animation-duration: 4s;
+          animation-iteration-count: infinite;
+        }
+        @keyframes example {
+          
+          0%   { left:1em; top:0px;}
+          25%  { left:200px; top:0px;}
+          50%  { left:200px; top:200px;}
+          75%  { left:1em; top:200px;}
+          100% { left:1em; top:0px;}
+        }
+        .augl {
+            width: 100%;
+            height: 20em;
+            border: 1px solid;
+            overflow: hidden;
+        }
+        </style>  
 </head>
 <body>
-        <h1>Pizza Italia</h1>
-        <img src="/assets/myndir/pizza.jpg" alt="pizza">
-
-
-        
+    <div class="augl">
+        <h1 class="animation">Pizza Italia</h1>
+        <img class="animation" src="/assets/myndir/pizza.jpg" alt="pizza">
+    </div>   
+    
 </body>
 </html>
 
