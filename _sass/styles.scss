@@ -42,8 +42,19 @@ grid-area: haegri;
 
 /* ====== GRID Template Areas ===== */
 
+.animation{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: 3;
 
+}
+.animation a{
 
+}
 /* ====== Bakruns litir====== */
 
 body {
@@ -155,7 +166,7 @@ Viðmið - breakpoints 37.5em = 600px +
 
 @media screen and (min-width: 37.5em) {
   .topmenu{
-    
+
     display: flex; 
     flex-flow: row;
     justify-content: space-around;
