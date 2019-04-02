@@ -100,51 +100,67 @@ footer{
 /* ========================================
 *  Fellilisti  *
 ======================================== */
-.dropbtn {
-  background-color: #4CAF50;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-}
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-.dropdown-content {
+.myInput {
   display: none;
-  position: absolute;
-  right: 0;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
 }
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
+.menulabel {
+  border: 1px solid #cecfd5;
+  border-radius: 6px;
+}
+.menulabel {
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.3em;
+  padding: 5px 9px;
+  transition: all .15s ease;
+}
+.menulabel:hover {
+  color: #ff7b29;
+}
+.topmenu a {
+  color: #fff;
   display: block;
+  padding: 6px 12px;
+  text-decoration: none;
 }
-/* ========================================
-*  Topmenu   *
-======================================== */
-.topnav ul{
-background: #1c2d1c; 
+.topmenu a:hover {
+  color: #ff7b29;
 }
-.topnav input {
-display: none;
+
+.myInput {
+  display: none;
+  }
+.myInput:checked + label {
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15);
+  color: #9799a7;
 }
+.topmenu {
+  position:fixed;
+  top:0;
+  right: -15em;
+  transition: all .15s ease;
+}
+.myInput:checked ~ .topmenu {
+  right: 0;
+  transition: all .15s ease;
+}
+
 button{
   background-color: red; 
 }
-.topmenu a {
+.topmenu {
 display: block;     /* ath! */
 color: white;
 text-decoration: none;
 text-align: center;
 padding: .4em 1em; 
+position: fixed;
+top: 3em;
+right: -15em;
+z-index: 980;
+list-style: none;
+transition: all .5s ease;
 }
 .topmenu a:hover,
 .topmenu a:active,
@@ -216,6 +232,19 @@ Viðmið - breakpoints 48em = 760px +
     grid-template-columns: 1fr 1fr;
     padding: 2em;
   }  
+  .topmenu {
+    position:relative;
+    top:0;
+    left: 0;
+    transition: none;
+  }
+  .topmenu a {
+    color: #fff;
+    display: inline-block;
+  }
+  .menulabel {
+    display: none;
+  }
 }
   /* ========================================
   Viðmið - breakpoints 60em = 960px +
