@@ -172,8 +172,19 @@ h1{
   text-align: center;
 }
 /* =======================================
+*  toblur *
+======================================== */
+.table{
+  background-color: red;
+  flex-flow: column;
+}
+.tr{
+  background-color: #9799a7;
+}
+/* =======================================
 *  myndvinnsla  *
 ======================================== */
+
 
 /*  myndir <img> alltaf í 100% stærð munið að vinna og 
   þjappa myndir í photoshop ! */

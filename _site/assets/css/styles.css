@@ -160,6 +160,16 @@ h1 {
   text-align: center; }
 
 /* =======================================
+*  toblur *
+======================================== */
+.table {
+  background-color: red;
+  flex-flow: column; }
+
+.tr {
+  background-color: #9799a7; }
+
+/* =======================================
 *  myndvinnsla  *
 ======================================== */
 /*  myndir <img> alltaf ├¡ 100% st├ªr├░ muni├░ a├░ vinna og 
