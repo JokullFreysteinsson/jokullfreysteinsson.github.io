@@ -11,3 +11,4 @@ Curabitur vitae aliquam sem. Quisque at eros at nunc condimentum pretium nec sem
 ![myndatexti](/assets/myndir/juice.jpg)
 Nam facilisis lacus id eros posuere, quis mollis felis sollicitudin. Vivamus feugiat lectus tellus, sit amet molestie enim fermentum sit amet. Quisque sit amet tellus egestas, laoreet sapien quis, hendrerit mi. Suspendisse nec commodo neque. Proin volutpat tincidunt dui nec porttitor. Sed et fermentum ligula, id sagittis eros. Nam vulputate faucibus metus, ac mollis purus posuere quis. Pellentesque non odio vulputate, mollis tortor eget, accumsan libero. Aliquam luctus nibh id felis placerat faucibus. Curabitur id orci ex. Nulla enim orci, tincidunt sed molestie et, tempus feugiat ex. In dictum quam tristique turpis ullamcorper, quis vulputate lectus hendrerit. Nullam velit augue, euismod non tortor quis, rutrum pharetra elit.
 
+{% include testtafla.html %} 
