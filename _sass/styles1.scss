@@ -1,0 +1,374 @@
+*, *:before, *:after {
+    box-sizing: border-box; 
+  }
+  /*heimild: https://gridbyexample.com/examples/example13/ */
+  
+  /* ====== GRID Area ====== */
+  body{
+      
+    margin: auto;
+    font-family: "Open Sans",sans-serif;
+    line-height: 1.5;
+    display: grid;
+    background: linear-gradient(black, purple);
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "header"
+        "content"
+        "footer"
+  }
+  .topnav {
+  grid-area: topnav; 
+  }
+  header {
+  grid-area: header;
+  }
+  .fuckyou {
+  grid-area: content; 
+  }
+  footer {
+  grid-area: footer;
+  }
+  /* dálkar í content */
+  .midja {
+  grid-area: midja; 
+  }
+  .vinstri {
+  grid-area: vinstri;
+  }
+  .haegri {
+  grid-area: haegri; 
+  }
+  
+  /* ====== GRID Template Areas ===== */
+  
+  
+  /* ====== Bakruns litir====== */
+  
+  body {
+  line-height: 1.5em;
+  
+  }
+  .topnav {
+  background: #1c2d1c; 
+  }
+  header {
+  color: white;
+  flex-flow: row; 
+  background-color: black;  
+  }
+  footer {
+  background: lightgreen; 
+  }
+  .midja {
+  background: linear-gradient(#003366, purple);
+  padding: 1em; 
+  }
+  .vinstri {
+  background: linear-gradient(black, purple);
+  padding: 1em;  
+  }
+   
+  .haegri {
+  background: pink;
+  padding: 1em;  
+  }
+  H1{
+      color: yellow;
+  }
+  .yellow{
+      color: yellow;
+  }
+  
+  
+  /* ====== leturstílar ====== */
+  
+  header h1 {
+  
+  line-height: 1.2;
+  font-weight: normal;
+  }
+  .midja h2 {
+  margin: .7em 0 .8em 0;
+  }
+  .midja h4 {
+  text-align: justify;
+  margin: .4em 0;
+  }
+  .midja p {
+  text-align: justify;
+  }
+  footer{
+    padding: 2em;
+  }
+  .content{
+    padding: 2m;
+  }
+  /* ========================================
+  *  Fellilisti  *
+  ======================================== */
+  .myInput {
+    display: none;
+  }
+  .menulabel {
+    border: 1px solid #cecfd5;
+    border-radius: 6px;
+  }
+  .menulabel {
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.3em;
+    padding: 5px 9px;
+    transition: all .15s ease;
+  }
+  .menulabel:hover {
+    color: #ff7b29;
+  }
+  .topmenu a {
+    color: #fff;
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+  }
+  .topmenu a:hover {
+    color: #ff7b29;
+  }
+  
+  .myInput {
+    display: none;
+    }
+  .myInput:checked + label {
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15);
+    color: #9799a7;
+  }
+  .topmenu {
+    position:fixed;
+    top:0;
+    right: -15em;
+    transition: all .15s ease;
+  }
+  .myInput:checked ~ .topmenu {
+    right: 0;
+    transition: all .15s ease;
+  }
+  
+  button{
+    background-color: red; 
+  }
+  .topmenu {
+  display: block;     /* ath! */
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: .4em 1em; 
+  position: fixed;
+  top: 3em;
+  right: -15em;
+  z-index: 980;
+  list-style: none;
+  transition: all .5s ease;
+  }
+  .topmenu a:hover,
+  .topmenu a:active,
+  .virkur {
+  color: black !important;
+  background-color: lightblue;
+  }
+  h1{
+    text-align: center;
+  }
+  /* =======================================
+  *  toblur *
+  ======================================== */
+  .table{
+    background-color: none;
+    flex-flow: column;
+  }
+  .tr{
+    background-color: none;
+  }
+  .title{
+      color:white;
+  }
+  
+  /* =======================================
+  *  form *
+  ======================================== */
+  
+  *,
+  *:before,
+  *:after {
+     box-sizing: border-box;
+  }
+  form {
+    margin: 2em;
+    background-color: purple;
+    border: 1px solid #c6c7cc;
+    border-radius: 5px;
+    font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    overflow: hidden;
+    width: 240px;
+  }
+  fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+  }
+  input {
+    border-radius: 5px;
+    font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+  }
+  .account-info {
+    padding: 1em;
+  }
+  .account-info label {
+    color: white;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .account-info input {
+    background: white;
+    border: 1px solid #c6c7cc;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+    color: #636466;
+    padding: 6px;
+    margin-top: 6px;
+    width: 100%;
+  }
+  .account-action {
+    background: purple;
+    border-top: 1px solid #c6c7cc;
+    padding: 20px;
+  }
+  .account-action .btn {
+    background: linear-gradient(#49708f, #293f50);
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    float: left;
+    padding: 8px 16px;
+  }
+  .account-action label {
+    color: #7c7c80;
+    font-size: 12px;
+    float: left;
+    margin: 10px 0 0 20px;
+  }
+  
+  
+  
+  
+  /* =======================================
+  *  myndvinnsla  *
+  ======================================== */
+  
+  
+  /*  myndir <img> alltaf í 100% stærð munið að vinna og 
+    þjappa myndir í photoshop ! */
+  
+  img, video {
+  max-width: 100%;
+  height: auto;
+  }
+  img {
+  display: block; /* losna við inline "whitespace" */
+  }
+  
+  figure {
+  margin:0;   /* ath! í normalize er sjálsfgefið margin 40px. */
+  border: 1px solid orange;
+  }
+  .myndabox {
+  width: 162px; /* ath! klasinn er með fasta breidd*/
+  }
+  
+  /*  ========================================
+  Viðmið - breakpoints 37.5em = 600px + 
+  ========================================*/
+  
+  @media screen and (min-width: 37.5em) {
+    .topmenu{
+  
+      display: flex; 
+      flex-flow: row;
+      justify-content: space-around;
+  
+    }
+    .content {
+      display: grid; /* grid erfist til barna (child element only) */
+      grid-gap: 0;
+      grid-template-areas:
+        "vinstri midja haegri";
+      grid-template-columns: 1fr 3fr 1fr;
+      }
+  }
+  /* ========================================
+  Viðmið - breakpoints 48em = 760px +
+  ======================================== */
+  
+  @media screen and (min-width: 48em) {  
+    .content {
+      display: grid; /* grid erfist til barna (child element only) */
+      grid-gap: 0;
+      grid-template-areas:
+        "vinstri midja";
+      grid-template-columns: 2fr 3fr;
+      }
+    
+    footer{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding: 2em;
+    }  
+    .topmenu {
+      position:relative;
+      top:0;
+      left: 0;
+      transition: none;
+    }
+    .topmenu a {
+      color: #fff;
+      display: inline-block;
+    }
+    .menulabel {
+      display: none;
+    }
+  }
+    /* ========================================
+    Viðmið - breakpoints 60em = 960px +
+    ======================================== */
+  
+  @media screen and (min-width: 60em) { 
+    body { 
+      max-width: 58em; 
+      margin: 0 auto;
+    }
+    /*
+    .content {
+      display: grid; 
+      grid-gap: 0;
+      grid-template-areas:
+        "midja vinstri haegri"
+      }
+    */
+    /* grid erfist til barna (child element only) */
+  }
+  
+  /* ========================================
+  Viðmið - breakpoints 80em = 1280px +
+  ======================================== 
+  
+  @media screen and (min-width: 80em) { 
+    body { 
+      max-width: 77em;
+      margin: 0 auto;
+    }
+      .myndabox {
+  
+    }
+  }
+  */
